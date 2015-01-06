@@ -7,7 +7,6 @@
     <link type="text/css" rel="stylesheet" href="<?php echo CSS_URL; ?>main.css">
 </head>
 <body>
-
 <h1>
     <span class="action-span"><a href="<?php echo Yii::app()->createUrl('article/Article/create'); ?>">添加新资讯</a></span>
     <span class="action-span1"><a href="index.php?act=main">高教网 管理中心</a> </span><span class="action-span1"
@@ -75,5 +74,11 @@
         </table>
     </div>
 </form>
+    <script>
+        (function(){
+            var trobj=document.getElementsByTagName("tr");
+            console.log(trobj)
+        }())
+    </script>
 </body>
 </html>
