@@ -104,60 +104,6 @@
 #menu-div li.fix-spacel{width:22px; border-left:none;}
 #menu-div li.fix-spacer{border-right:none;}
 </style>
-<script type="text/javascript" src="<?php echo JS_URL;?>transport.js"></script><script type="text/javascript">
-/**
- * 帮助系统调用
- */
-function web_address()
-{
-  var ne_add = parent.document.getElementById('main-frame');
-  var ne_list = ne_add.contentWindow.document.getElementById('search_id').innerHTML;
-  ne_list.replace('-', '');
-  var arr = ne_list.split('-');
-  window.open('help.php?al='+arr[arr.length - 1],'_blank');
-}
-
-
-
-function modalDialog(url, name, width, height)
-{
-  if (width == undefined)
-  {
-    width = 400;
-  }
-  if (height == undefined)
-  {
-    height = 300;
-  }
-
-  if (window.showModalDialog)
-  {
-    window.showModalDialog(url, name, 'dialogWidth=' + (width) + 'px; dialogHeight=' + (height+5) + 'px; status=off');
-  }
-  else
-  {
-    x = (window.screen.width - width) / 2;
-    y = (window.screen.height - height) / 2;
-
-    window.open(url, name, 'height='+height+', width='+width+', left='+x+', top='+y+', toolbar=no, directories=no, status=no, menubar=no, scrollbars=no, resizable=no, modal=yes');
-  }
-}
-
-function ShowToDoList()
-{
-  try
-  {
-    var mainFrame = window.top.frames['main-frame'];
-    mainFrame.window.showTodoList(adminId);
-  }
-  catch (ex)
-  {
-  }
-}
-
-
-var adminId = "1"; 
-</script>
 </head>
 <body>
 <div id="header-div">
