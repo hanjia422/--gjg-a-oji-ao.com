@@ -42,7 +42,6 @@
             </tr>
             <?php foreach ($articleinfo as $k => $v) : ?>
                 <tr>
-
                     <td class="first-cell">
                         <span><?php echo $v->title; ?></span></td>
 
