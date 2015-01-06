@@ -14633,3 +14633,43 @@ Stack trace:
 REQUEST_URI=/--gjg-a-oji-ao.com/Index/js/common.js
 HTTP_REFERER=http://localhost/--gjg-a-oji-ao.com/Index/main
 ---
+2015/01/06 16:10:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "js" 动作.' in G:\WWW\--gjg-a-oji-ao.com\framework\web\CController.php:483
+Stack trace:
+#0 G:\WWW\--gjg-a-oji-ao.com\framework\web\CController.php(270): CController->missingAction('js')
+#1 G:\WWW\--gjg-a-oji-ao.com\framework\web\CWebApplication.php(282): CController->run('js')
+#2 G:\WWW\--gjg-a-oji-ao.com\framework\web\CWebApplication.php(141): CWebApplication->runController('Index/js/common...')
+#3 G:\WWW\--gjg-a-oji-ao.com\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 G:\WWW\--gjg-a-oji-ao.com\index.php(18): CApplication->run()
+#5 {main}
+REQUEST_URI=/--gjg-a-oji-ao.com/Index/js/common.js
+HTTP_REFERER=http://localhost/--gjg-a-oji-ao.com/Index/main
+---
+2015/01/06 16:10:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "assets/css/gjw_minus.png"。' in G:\WWW\--gjg-a-oji-ao.com\framework\web\CWebApplication.php:286
+Stack trace:
+#0 G:\WWW\--gjg-a-oji-ao.com\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/css/gjw_...')
+#1 G:\WWW\--gjg-a-oji-ao.com\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 G:\WWW\--gjg-a-oji-ao.com\index.php(18): CApplication->run()
+#3 {main}
+REQUEST_URI=/--gjg-a-oji-ao.com/assets/css/gjw_minus.png
+HTTP_REFERER=http://localhost/--gjg-a-oji-ao.com/Index/menu
+---
+2015/01/06 16:11:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "assets/css/gjw_minus.png"。' in G:\WWW\--gjg-a-oji-ao.com\framework\web\CWebApplication.php:286
+Stack trace:
+#0 G:\WWW\--gjg-a-oji-ao.com\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/css/gjw_...')
+#1 G:\WWW\--gjg-a-oji-ao.com\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 G:\WWW\--gjg-a-oji-ao.com\index.php(18): CApplication->run()
+#3 {main}
+REQUEST_URI=/--gjg-a-oji-ao.com/assets/css/gjw_minus.png
+HTTP_REFERER=http://localhost/--gjg-a-oji-ao.com/Index/menu
+---
+2015/01/06 16:11:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "js" 动作.' in G:\WWW\--gjg-a-oji-ao.com\framework\web\CController.php:483
+Stack trace:
+#0 G:\WWW\--gjg-a-oji-ao.com\framework\web\CController.php(270): CController->missingAction('js')
+#1 G:\WWW\--gjg-a-oji-ao.com\framework\web\CWebApplication.php(282): CController->run('js')
+#2 G:\WWW\--gjg-a-oji-ao.com\framework\web\CWebApplication.php(141): CWebApplication->runController('Index/js/common...')
+#3 G:\WWW\--gjg-a-oji-ao.com\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 G:\WWW\--gjg-a-oji-ao.com\index.php(18): CApplication->run()
+#5 {main}
+REQUEST_URI=/--gjg-a-oji-ao.com/Index/js/common.js
+HTTP_REFERER=http://localhost/--gjg-a-oji-ao.com/Index/main
+---
